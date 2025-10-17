@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ultralytics / YOLO outputs
+runs/
+outputs/
+weights/
+
+# Large model/checkpoint files
+*.pt
+*.onnx
+*.engine
+*.trt
+*.bin
+
+# Datasets (optional)
+datasets/
+data/
+
+# Logs
+*.log
